@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Shadrack Muinde</title>
+    <link rel="stylesheet" href="contacts.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Shadrack</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h2>Contact Me</h2>
+        <p>Let's get in touch! Fill in the form below or reach out via email.</p>
+
+        <form action="submit_form.php" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <p>Email: <a href="mailto:shadrackmuinde23@gmail.com">shadrackmuinde23@gmail.com</a></p>
+            <p>Phone: <a href="tel:+254759259676">+254 759 259 676</a></p>
+            <p>Location: Nairobi, Kenya</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Shadrack Muinde. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
